@@ -1,14 +1,11 @@
 # algorithm
----
 :gift: java,javascript,go 언어로 알고리즘을 풀이합니다.
 
 ## 목차
----
 * [Programmers 문제풀이](#programmers)
 * [LeetCode 문제풀이](#leetcode)
 
 ## 문제풀이
----
 ### Programmers
 번호 | 제목 | Level | 카테고리 | 풀이코드
 ------- | ------- | -------| ------- | -------
