@@ -4,6 +4,7 @@
     max와 min  PriorityQueue 를 선언하며, 값 추가시 양 queue에 값을 넣으며 count를 센다
     최대값이 필요할 땐, max에서 최소값이 필요할땐 min에서 값을 뺀다.
     count 가 0만 아니면 위 방법은 올바른 값을 리턴한다. 
+  [예외 처리]
     count 값이 0일 때 예외처리를 해준다. 
 */
 import java.util.*;
