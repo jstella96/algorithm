@@ -1,5 +1,5 @@
 # algorithm
-:gift: java,javascript,go 언어로 알고리즘을 풀이합니다.
+:gift: java,javascript 언어로 알고리즘을 풀이합니다.
 
 ## 목차
 * [Programmers 문제풀이](#programmers)
