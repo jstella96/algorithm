@@ -15,6 +15,7 @@
  3 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | Medium | binary search |[자바풀이.java]
  4 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | stack |[자바풀이.java]
  5 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | Medium | stack |[자바풀이.java]
+ 5 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | string |[자바풀이.java]
 
 
  
