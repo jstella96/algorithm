@@ -85,95 +85,51 @@
 | 5 | [coin-change](https://leetcode.com/problems/coin-change/)| Easy | string | [자바풀이.java] |
 | 5 | [minimum-number-of-taps-to-open-to-water-a-garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)| Easy | string | [자바풀이.java] |
 | 5 | [maximum-subarray](https://leetcode.com/problems/maximum-subarray/)| Easy | string | [자바풀이.java] |
+| 5 | [word-break-ii](https://leetcode.com/problems/word-break-ii/)| Easy | string | [자바풀이.java] |
+| 5 | [generate-parentheses](https://leetcode.com/problems/generate-parentheses/)| Easy | string | [자바풀이.java] |
+| 5 | [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| Easy | string | [자바풀이.java] |
 
-[https://leetcode.com/problems/word-break-ii/](https://leetcode.com/problems/word-break-ii/)
+| 5 | [robot-bounded-in-circle](https://leetcode.com/problems/robot-bounded-in-circle/)| Easy | string | [자바풀이.java] |
+| 5 | [3sum-closest](https://leetcode.com/problems/3sum-closest/)| Easy | string | [자바풀이.java] |
+| 5 | [3sum-closest](https://leetcode.com/problems/3sum-closest/)| Easy | string | [자바풀이.java] |
+| 5 | [design-search-autocomplete-system](https://leetcode.com/problems/design-search-autocomplete-system/)| Easy | string | [자바풀이.java] |
 
-[https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
+| 5 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)| Easy | string | [자바풀이.java] |
+| 5 | [word-search](https://leetcode.com/problems/word-search/)| Easy | string | [자바풀이.java] |
+| 5 | [word-search-ii](https://leetcode.com/problems/word-search-ii/)| Easy | string | [자바풀이.java] |
+| 5 | [sudoku-solver](https://leetcode.com/problems/sudoku-solver/)| Easy | string | [자바풀이.java] |
 
-[https://leetcode.com/problems/letter-combinations-of-a-phone-number/](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+| 5 | [guess-the-word](https://leetcode.com/problems/guess-the-word/)| Easy | string | [자바풀이.java] |
 
-https://leetcode.com/problems/robot-bounded-in-circle/
-https://leetcode.com/problems/3sum-closest/
-https://leetcode.com/problems/design-search-autocomplete-system/
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-https://programmers.co.kr/learn/courses/30/lessons/42587
-https://programmers.co.kr/learn/courses/30/lessons/42583
-https://programmers.co.kr/learn/courses/30/lessons/42627
-//----------- 다음 주 문제 list -------------//
-https://leetcode.com/problems/word-search/
-https://leetcode.com/problems/word-search-ii/
-https://leetcode.com/problems/sudoku-solver/
+5 | [minimum-difference-between-largest-and-smallest-value-in-three-moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)| Easy | string | [자바풀이.java] |
 
-//----------- 문제 설명 -------------//
-이번 문제는 backtrackig 만 3문제를 준비했습니다.
-back tracking 3문제를 풀면서, 이 유형에 대한 감을 익히셨으면 좋겠습니다.
+5 | [logger-rate-limiter](https://leetcode.com/problems/logger-rate-limiter/)| Easy | string | [자바풀이.java] |
 
-1.  여러 문제들에 의해 멘탈이 털리고, 아 뭔가 이만큼 했는데 아직 문제가 잘 안풀리네 라고 생각이 들면서 점점 문제들을 보는게 압박으로 느껴지실수도 있을것 같아요.
-    하지만 카톡으로 말씀드렸듯이 수열의 극한, 미분, 적분과 같은 여러 수학단원들을 단원별로 3문제 정도 풀고 저번에 적분 풀어봤으니 내가 안풀어본 적분 문제가 나와도
-    기존의 적분문제와 유사점
+5 | [optimal-account-balancing](https://leetcode.com/problems/optimal-account-balancing/)| Easy | string | [자바풀이.java] |
 
-//----------- 다음 주 문제 list -------------//
+5 | [asteroid-collision](https://leetcode.com/problems/asteroid-collision/)| Easy | string | [자바풀이.java] |
+5 | [longest-string-chain](https://leetcode.com/problems/longest-string-chain/)| Easy | string | [자바풀이.java] |
 
-https://leetcode.com/problems/guess-the-word/
-https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
-https://leetcode.com/problems/logger-rate-limiter/
+5 | [guess-the-word](https://leetcode.com/problems/guess-the-word/)| Easy | string | [자바풀이.java] |
 
-//----------- 문제 설명 -------------//
-이번에는 딱히 단원을 정하진 않았습니다.
-출제 빈도 높은 common한 문제들로 여러 단원의 문제를 뽑았습니다.
-여기서 어렵다 싶은 유형이 있으면 그 다음시간에는 해당 유형의 문제만 골라내어 연습해보는 것도 좋을것 같습니다.
-(backtracing 했던것처럼)
+5 | [web-crawler-multithreaded](https://leetcode.com/problems/web-crawler-multithreaded/)| Easy | string | [자바풀이.java] |
+5 | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum/)| Easy | string | [자바풀이.java] |
+5 | [pacific-atlantic-water-flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| Easy | string | [자바풀이.java] |
+5 | [minimum-knight-moves](https://leetcode.com/problems/minimum-knight-moves/)| Easy | string | [자바풀이.java] |
 
-//----------- 이번주 문제 풀이 -------------//
+5 | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching/)| Easy | string | [자바풀이.java] |
 
-//----------- 다음 주 문제 list -------------//
-https://leetcode.com/problems/optimal-account-balancing/
-https://leetcode.com/problems/asteroid-collision/
-https://leetcode.com/problems/longest-string-chain/
+5 | [text-justification](https://leetcode.com/problems/text-justification/)| Easy | string | [자바풀이.java] |
 
-//----------- 문제 설명 -------------//
-이번주도 ㅎㅎ 딱히 단원을 정하진 않았습니다.
-출제 빈도 높은 common한 문제들로 여러 단원의 문제를 뽑았습니다.
+5 | [minimum-number-of-refueling-stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)| Easy | string | [자바풀이.java] |
 
-//----------- 이번주 문제 풀이 -------------//
+5 | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/)| Easy | string | [자바풀이.java] |
 
-1. https://leetcode.com/problems/guess-the-word/
-   interactive 문제 였습니다. 어떤 답을 내면, 그 답에 대한 feedback을 받고, feedback에서 받은 정보를 가지고
-   또 답을 내는식의 문제였고, 시도횟수를 최소로 하는 알
+5 | [shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)| Easy | string | [자바풀이.java] |
 
-1. priority queue (21-07-25)
-   https://programmers.co.kr/learn/courses/30/lessons/42628
-1. mergesort (21-07-25)
-   https://leetcode.com/problems/merge-k-sorted-lists/
-1. bst (case 1) (21-07-31)
-   https://leetcode.com/problems/time-based-key-value-store/
-1. bst (case 2) (21-07-31)
-   https://leetcode.com/problems/random-pick-with-weight/
-1. bfs (21-08-15)
-   https://leetcode.com/problems/accounts-merge/
-1. dfs (21-08-22)
-   https://leetcode.com/problems/evaluate-division/
+5 | [snapshot-array](https://leetcode.com/problems/snapshot-array/)| Easy | string | [자바풀이.java] |
 
-https://leetcode.com/problems/web-crawler-multithreaded/description/
-
-https://leetcode.com/problems/split-array-largest-sum/description/
-
-https://leetcode.com/problems/split-array-largest-sum/description/
-
-https://leetcode.com/problems/pacific-atlantic-water-flow/description/
-
-https://leetcode.com/problems/minimum-knight-moves/description/
-
-https://leetcode.com/problems/regular-expression-matching/
-
-https://leetcode.com/problems/text-justification/
-
-https://leetcode.com/problems/minimum-number-of-refueling-stops/
-
-https://leetcode.com/problems/merge-k-sorted-lists/
-https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
-https://leetcode.com/problems/snapshot-array/
-https://leetcode.com/problems/number-of-matching-subsequences/
+5 | [number-of-matching-subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)| Easy | string | [자바풀이.java] |
 
 ### Programmers
 
