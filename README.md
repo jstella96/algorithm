@@ -1,6 +1,7 @@
 # algorithm
 
-:gift: java 언어로 알고리즘을 풀이합니다.
+:gift: java 언어로 알고리즘을 풀이합니다.  
+__with 강남스터디:family:__
 
 ## 목차
 
