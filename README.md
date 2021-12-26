@@ -1,14 +1,13 @@
 # algorithm
 
 java 언어로 알고리즘을 풀이합니다.  
-__with 강남스터디:family:__
+**with 강남스터디:family:**
 
 ## 목차
 
 - [Programmers 문제풀이](#programmers)
 - [LeetCode 문제풀이](#leetcode)
-- [Topic 별 설명 및 분류](#카테고리)
-  ``
+- [Topic](#Topic)
 
 ## 문제풀이
 
@@ -71,7 +70,6 @@ __with 강남스터디:family:__
 | 5    | [Find The Celebrity](https://leetcode.com/problems/find-the-celebrity/)                                                                                                     | Medium | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Word Break](https://leetcode.com/problems/word-break/)                                                                                                                     | Medium | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                   | Medium | string        | [자바풀이.java]                                                                                                   |
-| 5    | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)                                         | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                                                         | Easy   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Word Break II](https://leetcode.com/problems/word-break-ii/)                                                                                                               | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                                                                                 | Medium | string        | [자바풀이.java]                                                                                                   |
@@ -94,40 +92,45 @@ __with 강남스터디:family:__
 | 5    | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)                                                                                           | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                   | Medium | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                                                                                                 | Medium | string        | [자바풀이.java]                                                                                                   |
-| 5    | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                                                                   | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Text Justification](https://leetcode.com/problems/text-justification/)                                                                                                     | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                       | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                                 | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)                                     | Hard   | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Snapshot Array](https://leetcode.com/problems/snapshot-array/)                                                                                                             | Medium | string        | [자바풀이.java]                                                                                                   |
 | 5    | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                           | Medium | string        | [자바풀이.java]                                                                                                   |
+| 5    | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                                                                   | Hard   | string        | [자바풀이.java]                                                                                                   |
+| 5    | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                                                                                                         | Medium | Greedy        | [자바풀이.java]                                                                                                   |
+| 5    | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)                                                                                                    | Easy   | Greedy        | [자바풀이.java]                                                                                                   |
+| 5    | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)                                         | Hard   | Greedy        | [자바풀이.java]                                                                                                   |
 
 ### Programmers
 
-| 번호 | 제목                                                                            | Level   | Topic                        | 풀이코드        |
-| ---- | ------------------------------------------------------------------------------- | ------- | ---------------------------- | --------------- |
-| 1    | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)            | Level 2 | 스택/큐                      | [자바풀이.java] |
-| 2    | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)  | Level 2 | 스택/큐                      | [자바풀이.java] |
-| 4    | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)             | Level 2 | 힙(Heap)                     | [자바풀이.java] |
-| 3    | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)              | Level 2 | 스택/큐                      | [자바풀이.java] |
-| 4    | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)            | Level 2 | 스택/큐                      | [자바풀이.java] |
-| 4    | [이중 우선순위 큐](https://programmers.co.kr/learn/courses/30/lessons/42628)    | Level 3 | 힙(Heap)                     | [자바풀이.java] |
-| 4    | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)     | Level 3 | 힙(Heap)                     | [자바풀이.java] |
-| 4    | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)            | Level 1 | 완전탐색                     | [자바풀이.java] |
-| 4    | [소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)            | Level 2 | 완전탐색                     | [자바풀이.java] |
-| 4    | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)                | Level 2 | 완전탐색                     | [자바풀이.java] |
-| 4    | [K-번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)           | Level 1 | 정렬                         | [자바풀이.java] |
-| 4    | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)          | Level 2 | 정렬                         | [자바풀이.java] |
-| 4    | [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747)             | Level 2 | 정렬                         | [자바풀이.java] |
-| 4    | [베스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579)         | Level 3 | 해시                         | [자바풀이.java] |
-| 4    | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)       | Level 2 | 해시                         | [자바풀이.java] |
-| 4    | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)            | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
-| 4    | [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)            | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
-| 4    | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)            | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
-| 4    | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)   | Level 2 | 카카오인턴십                 | [자바풀이.java] |
-| 4    | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)                | Level 2 | 해시                         | [자바풀이.java] |
-| 4    | [완주하지 못 한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | Level 1 | 해시                         | [자바풀이.java] |
-| 4    | [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)            | Level 2 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
+| 번호 | 제목                                                                             | Level   | Topic                        | 풀이코드        |
+| ---- | -------------------------------------------------------------------------------- | ------- | ---------------------------- | --------------- |
+| 1    | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)             | Level 2 | 스택/큐                      | [자바풀이.java] |
+| 2    | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)   | Level 2 | 스택/큐                      | [자바풀이.java] |
+| 4    | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)              | Level 2 | 힙(Heap)                     | [자바풀이.java] |
+| 3    | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)               | Level 2 | 스택/큐                      | [자바풀이.java] |
+| 4    | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)             | Level 2 | 스택/큐                      | [자바풀이.java] |
+| 4    | [이중 우선순위 큐](https://programmers.co.kr/learn/courses/30/lessons/42628)     | Level 3 | 힙(Heap)                     | [자바풀이.java] |
+| 4    | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)      | Level 3 | 힙(Heap)                     | [자바풀이.java] |
+| 4    | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)             | Level 1 | 완전탐색                     | [자바풀이.java] |
+| 4    | [소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)             | Level 2 | 완전탐색                     | [자바풀이.java] |
+| 4    | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)                 | Level 2 | 완전탐색                     | [자바풀이.java] |
+| 4    | [K-번째 수](https://programmers.co.kr/learn/courses/30/lessons/42748)            | Level 1 | 정렬                         | [자바풀이.java] |
+| 4    | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)           | Level 2 | 정렬                         | [자바풀이.java] |
+| 4    | [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747)              | Level 2 | 정렬                         | [자바풀이.java] |
+| 4    | [베스트 엘범](https://programmers.co.kr/learn/courses/30/lessons/42579)          | Level 3 | 해시                         | [자바풀이.java] |
+| 4    | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)        | Level 2 | 해시                         | [자바풀이.java] |
+| 4    | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)             | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
+| 4    | [단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)             | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
+| 4    | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)             | Level 3 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
+| 4    | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)    | Level 2 | 카카오인턴십                 | [자바풀이.java] |
+| 4    | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)                 | Level 2 | 해시                         | [자바풀이.java] |
+| 4    | [완주하지 못 한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)  | Level 1 | 해시                         | [자바풀이.java] |
+| 4    | [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)             | Level 2 | 깊이/너비 우선 탐색(DFS/BFS) | [자바풀이.java] |
+| 4    | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | Level 1 | 카카오 인턴십 2022           | [자바풀이.java] |
+| 4    | [표 편집](https://programmers.co.kr/learn/courses/30/lessons/81303)              | Level 3 | 카카오 인턴십 2022           | [자바풀이.java] |
 
 ### Topic
 
@@ -135,4 +138,6 @@ __with 강남스터디:family:__
 - [binary search](https://github.com/jstella96/algorithm/blob/main/leetcode/Medium/time-based-key-value-store.java)
 - [DP](https://github.com/jstella96/algorithm/blob/main/leetcode/Medium/time-based-key-value-store.java)
 - [two point](https://github.com/jstella96/algorithm/blob/main/leetcode/Medium/time-based-key-value-store.java)
-  `
+- [Greedy](https://github.com/jstella96/algorithm/blob/main/leetcode/Medium/time-based-key-value-store.java)
+  - [Huffman 알고리즘]()
+- [알고리즘 증명-귀납법,귀류법,비둘기집의 원리,구성적증명]()
