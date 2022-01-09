@@ -102,6 +102,7 @@ java 언어로 알고리즘을 풀이합니다.
 | 87   | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)                                                                                                    | Easy   | Greedy        | [Solution]   |
 | 88   | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)                                         | Hard   | Greedy        | [Solution]   |
 | 89   | [Range Module](https://leetcode.com/problems/range-module)                                                                                                                  | Hard   | Greedy        | [Solution]   |
+| 90   | [Predict The Winner](https://leetcode.com/problems/predict-the-winner)                                                                                                      | Medium | Min-Max       | [Solution]   |
 
 ### Programmers
 
@@ -143,4 +144,3 @@ java 언어로 알고리즘을 풀이합니다.
 - [Greedy](https://github.com/jstella96/algorithm/blob/main/leetcode/Medium/time-based-key-value-store.java)
   - [Huffman 알고리즘]()
 - [알고리즘 증명-귀납법,귀류법,비둘기집의 원리,구성적증명]()
-
