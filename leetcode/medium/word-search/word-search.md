@@ -1,3 +1,16 @@
+# Word Search
+
+## 문제
+
+m x n개의 문자 `board`와 문자열 `word`가 주어진 경우, 격자에 word가 있으면 true를 반환합니다.
+
+사방으로 인접한 문자열만 이어질 수 있습니다.
+
+## 문제 풀이
+
+## 풀이 코드
+
+```java
 public class Solution {
   boolean[][] visited;
 
@@ -42,3 +55,4 @@ public class Solution {
   }
 
 }
+```
