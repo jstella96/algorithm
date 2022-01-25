@@ -1,60 +1,65 @@
 import java.util.*;
 
-class Interval {
-  public int start;
-  public int end;
-
-  public Interval() {
-  }
-
-  public Interval(int _start, int _end) {
-    start = _start;
-    end = _end;
-  }
-};
-
 class Solution {
-  public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
+  long max;
 
-    List<Interval> result = new ArrayList<>();
-    List<Interval> allInterval = new ArrayList<>();
+  public long solution(String expression) {
+    max = 0;
+    String[] numArray = expression.split("[*+-]");
+    String[] operatorArray = expression.split("0-9");
 
-    for (List<Interval> list : schedule) {
-      allInterval.addAll(list); // 모르던 함수
+    List<String> numList = new ArrayList<>();
+    List<String> operatorList = new ArrayList<>();
+    List<String> operatorOrderList = new ArrayList<>();
+
+    for (String num : numArray) {
+      numList.add(num);
     }
-    // 시작시간 오름차순 정렬
-    Collections.sort(allInterval, new Comparator<Interval>() {
-      @Override
-      public int compare(Interval o1, Interval o2) {
-        return o1.start - o2.start;
-      }
-    });
 
-    int len = allInterval.size();
-    int count = 0;
-    int currentTime = 0;
-    int index = 0;
-    PriorityQueue<Interval> pq = new PriorityQueue<>((i1, i2) -> i2.end - i1.end);
-
-    while (count < len) {
-      // 한 작업이 끝날때까지 새로 들어온 요청이 없을 때
-      if (pq.isEmpty()) {
-        Interval interval = allInterval.get(index);
-        result.add(new Interval(currentTime, interval.start));
-        currentTime = interval.start;
-        // 한 작업이 끝날때 새로 들어온 요청이 있을 때 가장 늦게끝나는거 실행하며, queue 제거
-      } else {
-        Interval interval = pq.poll();
-        pq.clear();
-        currentTime += interval.end;
-        count = count + pq.size();
-      }
-      // 현재 진행 중인 작업의 끝나는 시점전에 들어온 요청을 PriorityQueue에 넣는다.
-      while (index < len && allInterval.get(index).start <= currentTime) {
-        pq.add(allInterval.get(index));
-        index++;
-      }
+    for (String operator : operatorArray) {
+      operatorList.add(operator);
     }
-    return result;
+
+    operatorOrderList.add("*");
+    operatorOrderList.add("-");
+    operatorOrderList.add("+");
+
+    dfs(numList, operatorList, operatorOrderList);
+
+    return max;
   }
+
+  public void dfs(List<String> numList, List<String> operatorList, List<String> operatorOrderList) {
+
+    if (numList.size() == 1) {
+      max = Math.max(max, Math.abs(Integer.parseInt(numList.get(0))));
+    }
+
+    for (int k = 0; k < operatorOrderList.size() - 1; k++) {
+      List<String> numList2 = new ArrayList<>(numList.size());
+      Collections.copy(numList2, numList);
+      List<String> operatorList2 = new ArrayList<>(operatorList.size());
+      Collections.copy(operatorList2, operatorList);
+      int i = 0;
+      for (Iterator<String> it = operatorList2.iterator(); it.hasNext(); i++) {
+        if (operatorOrderList.get(k).equals(it.next())) {
+          it.remove();
+          String a1 = numList2.remove(i);
+          String a2 = numList2.remove(i + 1);
+          if (operatorOrderList.get(k).equals("*")) {
+            numList.add(i, Integer.toString(Integer.parseInt(a1) * Integer.parseInt(a2)));
+          } else if (operatorOrderList.get(k).equals("+")) {
+            numList.add(i, Integer.toString(Integer.parseInt(a1) + Integer.parseInt(a2)));
+          } else if (operatorOrderList.get(k).equals("-")) {
+            numList.add(i, Integer.toString(Integer.parseInt(a1) - Integer.parseInt(a2)));
+          }
+        } // if
+      } // for
+      String tmp = operatorOrderList.remove(k);
+      dfs(numList2, operatorList, operatorOrderList);
+      operatorOrderList.add(k, tmp);
+      // 여기서 recu
+    } // for
+  }
+
 }
