@@ -105,14 +105,7 @@ class Solution {
 }
 ```
 
-/_ 다른 풀이_/
-이후 interval의 start가 lastTime보다 작다면 이전에 행한 work 가 끝나기 전에 해당 index의 작업이 시작되었다는 것입니다.
 
-1. index 와 lastend변수를 선언합니다
-2. index <len
-3. while문안에서 Max.math
-
-Math.max(lastWorkTime)
 
 ```java
 // Definition for an Interval.
