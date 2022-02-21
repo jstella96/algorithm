@@ -2,7 +2,6 @@
 
 ## 스터디
 
-- 퀵 솔팅이 인덱스가 이
 - 우린 머지 솔트의 중간 결과물을 가지고 있기 때문에 !!!!!!!
 - 머지솔트 나머지 구현. !
 - listnode . 포인트만 알려준다.
@@ -14,16 +13,6 @@
 ## 풀이 코드
 
 ```java
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<Integer> numbers = new PriorityQueue<>((x, y) -> x - y);
@@ -49,5 +38,4 @@ class Solution {
 
     }
 }
-
 ```

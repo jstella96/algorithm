@@ -31,3 +31,41 @@ class Solution {
     }
 }
 ```
+
+이전풀이
+
+```java
+/**/import java.util.*;
+class Count{
+    int num;
+    int count;
+
+    Count(int num, int count)
+    {
+        this.num = num;
+        this.count = count;
+    }
+}
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+
+        int[] answer = new int[k];
+        PriorityQueue<Count> maxPriorityQueue = new PriorityQueue<Count>((o1, o2) -> o2.count- o1.count );
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for(int num : nums){
+            map.put(num, map.getOrDefault(num,0)+1);
+        }
+        for(int key : map.keySet()){
+          maxPriorityQueue.offer(new Count(key,map.get(key)));
+        }
+
+        for(int i = 0 ; i < k ; i++){
+            Count a = maxPriorityQueue.poll();
+            answer[i] =a.num;
+        }
+
+        return answer;
+
+    }
+}
+```
