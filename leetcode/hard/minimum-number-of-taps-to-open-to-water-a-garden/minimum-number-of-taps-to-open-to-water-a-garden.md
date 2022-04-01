@@ -25,14 +25,6 @@ The tap at point 5 can cover the interval [5,5]
 Opening Only the second tap will water the whole garden [0,5]
 ```
 
-```
-Example 2:
-
-Input: n = 3, ranges = [0,0,0,0]
-Output: -1
-Explanation: Even if you activate all the four taps you cannot water the whole garden.
-```
-
 ## 문제 설명
 
 ```java
