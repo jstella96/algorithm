@@ -1,6 +1,6 @@
 # algorithm
 
-java 언어로 알고리즘을 풀이합니다.
+Java & JavaScript 언어로 알고리즘을 풀이합니다.
 
 ## 목차
 
