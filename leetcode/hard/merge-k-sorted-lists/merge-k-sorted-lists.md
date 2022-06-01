@@ -1,15 +1,21 @@
 # merge-k-sorted-lists
 
-## 스터디
+[문제링크](https://leetcode.com/problems/merge-k-sorted-lists/)
 
-- 퀵 솔팅이 인덱스가 이
-- 우린 머지 솔트의 중간 결과물을 가지고 있기 때문에 !!!!!!!
-- 머지솔트 나머지 구현. !
-- listnode . 포인트만 알려준다.
-- 포인트가 비어있지 않을때까지 .
-- 싱글리스트 이해하고 있냐.
-- 그냥 리스트있냐. 뼈대를 만드려면..
-- 앞에 가상으로 만들었으니까. 아래서 next. 로
+## 문제 설명
+
+linked-lists `lists`가 주어질 때, 각 linked-list는 오름차순으로 정렬된다. 모든 연결 목록을 하나의 정렬된 연결 목록으로 병합하고 반환해라
+
+## 입출력 예시
+
+```
+Input: lists = [[1,4,5],[1,3,4],[2,6]]
+Output: [1,1,2,3,4,4,5,6]
+```
+
+## 문제 풀이
+
+그냥 풀어서 다시만들면 쉽게 만들어진다. 모든 리스트를 분해한 후 PriorityQueue에 넣으면 자동 정렬되고, 다시 list구조를 만든다.
 
 ## 풀이 코드
 
@@ -28,6 +34,7 @@ class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<Integer> numbers = new PriorityQueue<>((x, y) -> x - y);
 
+        //1.분해
         for (int i = 0; i < lists.length; i++) {
             ListNode node = lists[i];
             while(node != null){
@@ -35,7 +42,7 @@ class Solution {
                 node = node.next;
             }
         }
-
+        //2.재조립
         ListNode head = new ListNode(-1);
         ListNode node = head;
 
@@ -49,5 +56,4 @@ class Solution {
 
     }
 }
-
 ```
