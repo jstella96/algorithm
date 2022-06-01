@@ -1,15 +1,31 @@
 # daily-temperatures
 
-## 풀이코드
+[문제링크](https://leetcode.com/problems/daily-temperatures/)
+
+## 문제 설명
+
+일일 온도를 나타내는 정수 배열`temperatures`이 주어질때, i번째 날 이후에 더 따뜻한 온도를 얻기 위해 기다려야 하는 일수를 answer[i]에 담아 반환하시오. 가능한 미래의 날이 없다면 answer[i] 에 0을 담아 반환하시오.
+
+## 입출력 예시
+
+```
+Input: temperatures = [30,40,50,60]
+Output: [1,1,1,0]
+```
+
+## 문제 풀이
+
+```
+  	int answer = new int[배열 길이]
+		temperatures for 문 돌면서 하나씩 검증
+		포인트 온도 기준 이후 값들 for 문 돌면서 값이 올라가는 부분이 있다면 그 값을 answer에	입력 없다면 0입력
+
+    다른 풀이: stack을 사용
+```
+
+## 풀이 코드
 
 ```java
-/*
-	[풀이 과정] -
-		int answer = new int[배열 길이]
-		temperatures for 문 돌면서 하나씩 검증
-		포인트 온도 기준 이후 값들 for 문 돌면서 값이 올라가는 부분이 있다면 그 값을 answer에
-		입력 없다면 0입력
-*/
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
         int[ ] answer = new int [temperatures.length];
@@ -26,14 +42,3 @@ class Solution {
     }
 }
 ```
-
-## 스터디
-
-- 왜 n^2 ? → 워스트 케이스
-- 스택을 왜 일반적으로 쓰는가?
-  - 이상적으로 원하는 조건이 나오면 stack pop 을 해서 관리할수있으면
-  - 한번에 하나만 비교 한정.
-  - 빠진다는 의미는 빠진 숫자는 안봐도 되니까
-  - 스택을 썻다는건 위에가 안맞으면 아래 신경안써도 된다 ?
-  - o(n^2)이 되는건 아래를 다 순회, 그러나 스택은 탑이랑만 비교한다.
-  - while(stack) & nums[i] 온도 i를 이용해서 참조하면

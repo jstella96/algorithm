@@ -1,6 +1,8 @@
 # predict The Winner
 
-## 문제
+[문제링크](https://leetcode.com/problems/predict-the-winner/)
+
+## 문제 설명
 
 integer array `nums`가 주어진다. player1, player2는 이 array로 게임을한다.
 선수는 번갈아 가면서 turn을 가지고 시작은 player1이 한다 두명의 플레이어는 socre 0 에서 시작하고 각자의 턴에
