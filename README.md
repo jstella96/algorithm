@@ -1,3 +1,7 @@
+  
+🏠블로그로 이전합니다[(링크)](https://jstella96.github.io/blog/algorithm/)🏠  
+
+
 # algorithm
 
 JavaScript & Java언어로 알고리즘을 풀이합니다.
