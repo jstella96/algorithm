@@ -1,12 +1,3 @@
----
-order: 3
-icon: creative
-title: 알고리즘
-category:
-  - Algorithm
-tag:
-  - topic
----
 
 ## 정렬
 
