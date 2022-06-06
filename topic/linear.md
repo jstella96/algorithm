@@ -1,12 +1,3 @@
----
-order: 1
-icon: creative
-title: 선형 자료구조
-category:
-  - Algorithm
-tag:
-  - topic
----
 
 데이터 요소가 순차적(Sequential)으로 배열되는 자료구조를 선형 자료구조라고 한다. 한 번에 탐색이 가능하며, 구현하기도 쉽다.
 
