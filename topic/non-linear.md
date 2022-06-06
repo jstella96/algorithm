@@ -1,12 +1,3 @@
----
-order: 2
-icon: creative
-title: 비선형 자료구조
-category:
-  - Algorithm
-tag:
-  - topic
----
 
 ## 비선형 자료구조
 
