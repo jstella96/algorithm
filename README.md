@@ -10,7 +10,7 @@ JavaScript & Java언어로 알고리즘을 풀이합니다.
 
 - [Programmers 문제풀이](#programmers)
 - [LeetCode 문제풀이](#leetcode)
-
+- [Topic](#topic)
 ## 문제풀이
 
 ### Programmers
@@ -110,3 +110,9 @@ JavaScript & Java언어로 알고리즘을 풀이합니다.
 | 50   | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)               | Hard   | -     | [Java](https://github.com/jstella96/algorithm/blob/dev/leetcode/hard/minimum-number-of-taps-to-open-to-water-a-garden/minimum-number-of-taps-to-open-to-water-a-garden.md)                 |
 | 51   | [Range Module](https://leetcode.com/problems/range-module)                                                                                        | Hard   | -     | [Java](https://github.com/jstella96/algorithm/blob/dev/leetcode/hard/range-module/range-module.md)                                                                                         |
 | 52   | [Predict The Winner](https://leetcode.com/problems/predict-the-winner)                                                                            | Medium | -     | [Java](https://github.com/jstella96/algorithm/blob/dev/leetcode/medium/predict-the-winner/predict-the-winner.md)                                                                           |
+
+
+### Topic
+* [선형 자료 구조](https://github.com/jstella96/algorithm/edit/main/topic/linear.md)
+* [비선형 자료 구조](https://github.com/jstella96/algorithm/edit/main/topic/non-linear.md)
+* [알고리즘](https://github.com/jstella96/algorithm/blob/main/topic/algorithm.md)
